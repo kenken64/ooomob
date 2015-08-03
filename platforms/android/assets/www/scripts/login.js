@@ -1,7 +1,7 @@
 /**
  * Created by Kenneth on 02/08/2015.
  */
-$(document).ready(function() {
+$(document).ready(function () {
 
     $("#btn-submit").click(function (e) {
         e.preventDefault();

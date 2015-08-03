@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>Out Of Office - Password Reset</title>
-    <meta charset="utf-8" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
 
     <link rel="stylesheet" href="css/jquery.mobile.css">
     <link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
@@ -19,26 +19,38 @@
 <body>
 <div data-role="page">
     <div data-role="header" data-theme="a">
-        <a href="sign-in.html" data-rel="back" class="ui-btn-left ui-btn  ui-btn-icon-notext ui-corner-all ui-icon-back">Back</a>
+        <a href="sign-in.html" data-rel="back"
+           class="ui-btn-left ui-btn  ui-btn-icon-notext ui-corner-all ui-icon-back">Back</a>
+
         <h1>Out of Office</h1>
-    </div><!-- /header -->
+    </div>
+    <!-- /header -->
     <div role="main" class="ui-content">
         <h3>Password Reset</h3>
         <label for="txt-email">Enter your email address</label>
         <input type="text" name="txt-email" id="txt-email" value="">
-        <a href="#dlg-pwd-reset-sent" data-rel="popup" data-transition="pop" data-position-to="window" id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</a>
+        <a href="#dlg-pwd-reset-sent" data-rel="popup" data-transition="pop" data-position-to="window" id="btn-submit"
+           class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</a>
+
         <div data-role="popup" id="dlg-pwd-reset-sent" data-dismissible="false" style="max-width:400px;">
             <div data-role="header">
                 <h1>Password Reset</h1>
             </div>
             <div role="main" class="ui-content">
                 <h3>Check Your Inbox</h3>
-                <p>We sent you an email with instructions on how to reset your password. Please check your inbox and follow the instructions in the email.</p>
-                <div class="mc-text-center"><a href="endreset.html" class="ui-btn ui-corner-all ui-shadow ui-btn-b mc-top-margin-1-5">OK</a></div>
+
+                <p>We sent you an email with instructions on how to reset your password. Please check your inbox and
+                    follow the instructions in the email.</p>
+
+                <div class="mc-text-center"><a href="endreset.html"
+                                               class="ui-btn ui-corner-all ui-shadow ui-btn-b mc-top-margin-1-5">OK</a>
+                </div>
             </div>
         </div>
-    </div><!-- /content -->
-</div><!-- /page -->
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->
 </body>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="scripts/app.js"></script>

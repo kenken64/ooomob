@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>Out of office - Sign In</title>
-    <meta charset="utf-8" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
 
     <link rel="stylesheet" href="css/jquery.mobile.css">
     <link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
@@ -20,8 +20,10 @@
 <div data-role="page">
     <div data-role="header" data-theme="a">
         <a href="index.html" data-rel="back" class="ui-btn-left ui-btn  ui-btn-icon-notext ui-corner-all ui-icon-back">Back</a>
+
         <h1>Out of Office</h1>
-    </div><!-- /header -->
+    </div>
+    <!-- /header -->
     <div role="main" class="ui-content">
         <h3>Sign In</h3>
         <label for="txt-email">Email Address</label>
@@ -32,17 +34,25 @@
             <input type="checkbox" name="chck-rememberme" id="chck-rememberme" checked="">
             <label for="chck-rememberme">Remember me</label>
         </fieldset>
-        <a href="main.html"  id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</a>
+        <a href="main.html" id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</a>
+
         <p class="mc-top-margin-1-5"><a href="reset.html">Can't access your account?</a></p>
+
         <div data-role="popup" id="dlg-invalid-credentials" data-dismissible="false" style="max-width:400px;">
             <div role="main" class="ui-content">
                 <h3 class="mc-text-danger">Login Failed</h3>
+
                 <p>Did you enter the right credentials?</p>
-                <div class="mc-text-center"><a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-b mc-top-margin-1-5">OK</a></div>
+
+                <div class="mc-text-center"><a href="#" data-rel="back"
+                                               class="ui-btn ui-corner-all ui-shadow ui-btn-b mc-top-margin-1-5">OK</a>
+                </div>
             </div>
         </div>
-    </div><!-- /content -->
-</div><!-- /page -->
+    </div>
+    <!-- /content -->
+</div>
+<!-- /page -->
 </body>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="scripts/app.js"></script>
