@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Out Of Office - Password Reset</title>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <link rel="stylesheet" href="css/jquery.mobile.css">
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="css/oooapp.min.css">
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquerymobile/jquery.mobile.min.js"></script>
+</head>
+
+<body>
+<div data-role="page">
+    <div data-role="header" data-theme="a">
+        <h1>Book It</h1>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+        <h3>Reset Password</h3>
+        <label for="txt-tmp-password">Provisional Password</label>
+        <input type="password" name="txt-tmp-password" id="txt-tmp-password" value="">
+        <label for="txt-new-password">New Password</label>
+        <input type="password" name="txt-new-password" id="txt-new-password" value="">
+        <label for="txt-new-password-confirm">Confirm New Password</label>
+        <input type="password" name="txt-new-password-confirm" id="txt-new-password-confirm" value="">
+        <a href="#dlg-pwd-changed" data-rel="popup" data-transition="pop" data-position-to="window" id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</a>
+        <div data-role="popup" id="dlg-pwd-changed" data-dismissible="false" style="max-width:400px;">
+            <div data-role="header">
+                <h1>Done</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <p>Your password was changed.</p>
+                <div class="mc-text-center"><a href="sign-in.html" class="ui-btn ui-corner-all ui-shadow ui-btn-b mc-top-margin-1-5">OK</a></div>
+
+            </div>
+        </div>
+    </div><!-- /content -->
+</div><!-- /page -->
+
+</body>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- CSP support mode (required for Windows Universal apps): https://docs.angularjs.org/api/ng/directive/ngCsp -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
+    <link rel="stylesheet" href="lib/onsen/css/onsen-css-components-blue-basic-theme.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/onsen/js/onsenui.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+
+    <!-- CSP support mode (required for Windows Universal apps) -->
+    <link rel="stylesheet" href="lib/angular/angular-csp.css" />
+
+    <script>
+        ons.bootstrap();
+    </script>
+</head>
+<body>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/login.js"></script>
+
+<ons-navigator animation="slide" var="app.navi">
+<ons-page>
+    <ons-toolbar>
+        <div class="center">Log In</div>
+        <div class="right"><ons-toolbar-button>Close</ons-toolbar-button></div>
+    </ons-toolbar>
+
+    <div class="login-form">
+
+        <input type="email" class="text-input--underbar" placeholder="Email" value="">
+        <input type="password" class="text-input--underbar" placeholder="Password" value="">
+        <br><br>
+        <ons-button modifier="large" id="btnlogin" class="login-button">Log In</ons-button>
+        <br><br>
+        <ons-button modifier="quiet" class="sign-up">Sign-up</ons-button>
+        <br>
+        <ons-button modifier="quiet" class="forgot-password">Forgot password?</ons-button>
+    </div>
+
+</ons-page>
+</ons-navigator>
+
+<ons-template id="main.html">
+    <ons-page>
+        hello
+    </ons-page>
+</ons-template>
+
+</body>
+</html>

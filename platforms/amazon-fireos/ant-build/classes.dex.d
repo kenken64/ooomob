@@ -1,0 +1,21 @@
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes.dex : \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\device\Device.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$1.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$2.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$3.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$4.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$5$1.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$5.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$6$1.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$6.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen$7.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\sg\ooo\BuildConfig.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\sg\ooo\OooMob.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\sg\ooo\R$attr.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\sg\ooo\R$drawable.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\sg\ooo\R$string.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\sg\ooo\R$xml.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\classes\sg\ooo\R.class \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\dexedLibs\classes-5d4b1ddf8fb4154a041d1b49bb40c732.jar \
+D:\Project\ooomob\platforms\amazon-fireos\ant-build\dexedLibs\awv_interface-5bbe58d7b637556c5cd9738142d8a468.jar \

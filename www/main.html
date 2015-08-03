@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- CSP support mode (required for Windows Universal apps): https://docs.angularjs.org/api/ng/directive/ngCsp -->
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+
+    <link rel="stylesheet" href="css/jquery.mobile.css">
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="css/oooapp.min.css">
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquerymobile/jquery.mobile.min.js"></script>
+
+
+    <style>
+        /*this block should go in the styles.css file*/
+        .ui-panel-inner {
+            padding: 0px; /*make the buttons flush edge to edge*/
+        }
+
+        .ui-controlgroup {
+            margin: 0; /*make the buttons flush to the top*/
+        }
+
+        #header {
+            height: 54px;
+        }
+
+        #bars-button {
+            margin: 7px;
+        }
+    </style>
+</head>
+<body>
+
+<div data-role="page" id="home" data-theme="a">
+
+    <div data-role="panel" id="navpanel" data-theme="b"
+         data-display="overlay" data-position="right">
+        <div data-role="controlgroup" data-corners="false">
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="bullets">Apply Leave</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="check">Approve/Reject Leave</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="calendar">Current Leaves</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="calendar">Last Year's Leaves</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="shop">Leave Balances</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="bullets">Who's on leave</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="calendar">Leave in-lieu</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="plus">Search Nearest Clinic/Hospital</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="grid">View Holidays</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="gear">Settings</a>
+            <a href="#" data-role="button" class="ui-btn-icon-left" data-icon="power">Sign-off</a>
+        </div>
+    </div>
+
+    <div id="header" data-role="header" data-theme="a">
+        <a id="profile-button" data-icon="user" class="ui-btn-icon-left" style="margin-top:10px;" href="#">Profile</a>
+        <a id="bars-button" data-icon="bars" class="ui-btn-right" style="margin-top:10px;" href="#navpanel">Menu</a>
+    </div>
+</div>
+</body>
+</html>
